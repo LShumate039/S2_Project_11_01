@@ -11,7 +11,7 @@
 
 */
 // this changes the date on the website 
-var thisTime = new Date(" February 3, 2018 03:15:28");
+var thisTime = new Date();
 var timeStr = thisTime.toLocaleString();
 document.getElementById("timeStamp").innerHTML = timeStr;
 
